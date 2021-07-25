@@ -30,13 +30,18 @@
 }
 .navBar {
   overflow:hidden;
-  background-color:#333333;
-  border-bottom: 5px solid white;
+  background-color:white;
+  z-index:100;
+}
+
+.icon {
+  height:25px;
+  width:25px;
 }
 
 .navBar a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding-left:30px;
   padding-right:30px;
@@ -46,16 +51,29 @@
   font-weight:bold;
   font-size: 25px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .navBar a.active {
   background-color:orange;
   color:white;
-  margin-left:20px;
+  margin-left:40px;
   font-size:25px;
 }
 
+
 .navBar a:hover {
   text-decoration:none;
-  color:white;
+  color:black;
 }
 
 .logo {
@@ -126,6 +144,7 @@
 .smallText {
   font-size:20px;
   display:inline;
+  font-weight:bold;
 }
 
 .glassMorph {

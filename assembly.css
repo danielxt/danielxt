@@ -162,7 +162,7 @@ img {vertical-align: middle;}
 .header {
   height:700px;
   text-align:center;
-  animation: slideshow 10s ease-in;
+  background-image:url('soupKitchen.jpg');
   color:white;
   z-index:-1;
   margin-top:60px;

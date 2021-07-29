@@ -173,6 +173,8 @@ img {vertical-align: middle;}
   text-align:center;
   background-image:url('soupKitchen.jpg');
   color:white;
+  background-repeat: no-repeat;
+  background-position:center;
   z-index:-1;
   margin-top:60px;
   text-align:center;
@@ -253,6 +255,42 @@ img {vertical-align: middle;}
 .parentHeader {
 }
 
+.form-container {
+  padding:10px;
+  margin-right:80px;
+  text-align: left;
+  margin-top:100px;
+  width:500px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding:20px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom:3px solid #ffcd7d;
+  height:10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #333333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin-top:20px;
+  width:100%;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #777777;
+}
 
 .childHeader{
   width:600px;
@@ -289,6 +327,8 @@ img {vertical-align: middle;}
 .insetPic {
   background-image:url('volunteers.jpg');
   position:relative;
+  background-repeat: no-repeat;
+  background-position:center;
   top:50px;
   width:75%;
   display: flex;
@@ -372,6 +412,5 @@ img {vertical-align: middle;}
   backdrop-filter: blur( 4px );
   padding:10px;
   -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

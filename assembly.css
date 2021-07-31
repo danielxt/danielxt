@@ -7,6 +7,10 @@
 @media only screen and (max-width: 650px) {
   .navBar #about {display:none;}
 }
+
+body {
+  font-family: 'Andada Pro', serif !important;
+}
 /* Underline From Left */
 .hvr-underline-from-left {
   display: inline-block;
@@ -95,10 +99,11 @@
 
 .navBar a.active {
   background-color:#ffcd7d;
-  color:white;
+  color:black;
   margin-left:40px;
   font-size:25px;
 }
+
 
 .mySlides {display: none;}
 img {vertical-align: middle;}

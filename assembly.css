@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Andada Pro', serif !important;
+  font-family: 'Arvo', serif !important;
 }
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -419,3 +419,6 @@ input[type=submit]:hover {
   -webkit-backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+
+/* slide out css */

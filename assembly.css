@@ -1,11 +1,21 @@
 @media only screen and (max-width: 1000px) {
   .navBar #donate {display:none;}
+  .textBox {width:100%;padding:25px;
+  color:green;}
 }
+
+
 @media only screen and (max-width: 800px) {
   .navBar #volunteer {display:none;}
 }
 @media only screen and (max-width: 650px) {
   .navBar #about {display:none;}
+
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top:20px;
 }
 
 body {

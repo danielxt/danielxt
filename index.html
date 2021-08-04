@@ -30,28 +30,27 @@
 
   </div>
 </div> -->
-<div class="topnav sticky" id="myTopnav">
+<div class="topnav sticky" >
+
   <a class="active">The Assembly Soup Kitchen</a>
+  <div class="topnav-right" id='myTopnav'>
   <a href="#home" class='hvr-underline-from-left'>Home</a>
   <a href="#about" class='hvr-underline-from-left'>About</a>
   <a href="#volunteer" class='hvr-underline-from-left'>Volunteer</a>
   <a href="#donate" class='hvr-underline-from-left'>Donate</a>
-  <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+  <div class='dropdown'>
+  <a class="hamburger dropbtn" style='color:white;'>
     ☰
   </a>
+  <div class="dropdown-content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+</div>
+</div>
 </div>
 
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav sticky") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav sticky";
-  }
-}
-</script>
 
 <div class='spacer' id='home'></div>
 

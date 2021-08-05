@@ -61,7 +61,7 @@ body {
 }
 .topnav {
 
-  background-color: #333333;
+  background-color: #222222;
   z-index:100;
 }
 
@@ -242,7 +242,7 @@ img {vertical-align: middle;}
 
 .map {
   color:#ffcd7d;
-  height:400px;
+  height:100%;
 }
 
 
@@ -392,7 +392,7 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:350px;
+  height:700px;
   margin: auto;
 }
 

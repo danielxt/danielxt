@@ -97,11 +97,32 @@ body {
     float: right;
     display: block;
   }
+  .alphabetCol {
+    width:100%;
+  }
   .textBox {
     font-size:10px;
     font-weight:normal;
   }
 }
+
+.alphabetRow {
+  background-color:white;
+  justify-content: center;
+}
+.alphabetCol {
+  float:left;
+  width:50%;
+  padding:10px;
+
+}
+
+.alphabetRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .textBox {
   width:50%;
   margin: auto;

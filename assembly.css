@@ -91,6 +91,13 @@ body {
   display: none;
 }
 
+.textBox {
+  width:50%;
+  margin: auto;
+  font-weight:normal !important;
+  font-size:25px;
+}
+
 @media screen and (max-width: 1400px) {
   .topnav-right a {display: none;}
   .topnav a.hamburger {
@@ -100,15 +107,25 @@ body {
   .alphabetCol {
     width:100%;
   }
+
+}
+@media screen and (max-width: 800px) {
   .textBox {
-    font-size:10px;
+    font-size:20px;
     font-weight:normal;
+    width:80%;
   }
 }
+
 
 .alphabetRow {
   background-color:white;
   justify-content: center;
+}
+
+.caps {
+  font-size:50px;
+  font-weight:bold;
 }
 .alphabetCol {
   float:left;
@@ -123,12 +140,7 @@ body {
   clear: both;
 }
 
-.textBox {
-  width:50%;
-  margin: auto;
-  font-weight:normal !important;
-  font-size:25px;
-}
+
 
 @media screen and (max-width: 1400px) {
   .topnav.responsive {position: relative;}
@@ -435,7 +447,7 @@ input[type=submit]:hover {
   position:relative;
   background-repeat: no-repeat;
   background-position:center;
-  background-size:100% auto;
+  background-size: auto 100%;
   top:50px;
   width:75%;
   display: flex;

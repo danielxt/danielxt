@@ -314,9 +314,9 @@ margin-bottom: -1px ; /* for Mobile Safari dark line artifact */
 }
 
 .bigIcon {
-  height:250px;
-  width:200px;
-  padding-bottom:50px;
+  height:80px;
+  width:80px;
+  margin:50px;
 }
 
 .form-container {

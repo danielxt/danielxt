@@ -113,7 +113,7 @@ body {
   .textBox {
     font-size:20px;
     font-weight:normal;
-    width:80%;
+    width:90%;
   }
 }
 
@@ -243,10 +243,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+
 
 .overlay {
   position:absolute;
@@ -367,10 +364,10 @@ input[type=submit]:hover {
 }
 
 .aboutCard {
-  height:900px;
+  height:800px;
   background-color:#ffcd7d;
   color:white;
-  padding-top:50px;
+  padding-top:75px;
   margin:0 auto;
   text-align: center;
 }

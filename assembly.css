@@ -3,7 +3,9 @@ html {
   scroll-behavior: smooth;
   scroll-margin-top:20px;
 }
-
+.childCap {
+  font-size:30px;
+}
 body {
   font-family: 'Arvo', serif !important;
   background-color:#333333;

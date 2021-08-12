@@ -506,8 +506,10 @@ input[type=submit]:hover {
 .aboutTask {
   font-size:150px;
   font-weight:bold;
-  width:600px;
+  text-align:center;
 }
+
+
 
 .smallText {
   font-size:20px;

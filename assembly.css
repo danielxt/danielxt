@@ -147,7 +147,7 @@ body {
 
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .hamburger {
     position: absolute;
@@ -657,9 +657,10 @@ a {
   color:white;
   text-align:center;
   display: flex;
+  padding-top:50px;
   justify-content: center;
   align-items: center;
-  height:600px;
+  height:auto;
   margin: auto;
 }
 
